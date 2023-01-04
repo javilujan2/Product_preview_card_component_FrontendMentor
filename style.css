@@ -138,5 +138,6 @@ html {
         .main_container {
             display: flex;
             flex-direction: row;
+            max-height: 50%;
         }
       }
