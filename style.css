@@ -35,8 +35,6 @@ html {
 - Weights: 700 */
 
 .main_container {
-    width: 100%;
-    height: 100%;
     margin: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -125,19 +123,21 @@ html {
 
         .image_desktop {
             display: flex;
-            width: 50vw;
+            width: 100%;
             border-radius: 20px 0 0 20px;
         }
 
         .text_container {
-            width: 50vw;
+            width: 100%;
             margin: auto 0;
             
         }
 
         .main_container {
+            max-width: 600px;
             display: flex;
             flex-direction: row;
             max-height: 50%;
+            margin:  100px auto;
         }
       }
